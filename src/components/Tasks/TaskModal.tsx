@@ -33,6 +33,8 @@ export const TaskModal = ({
   const [errors, setErrors] = useState({ title: "", dueDate: "" });
 
   useEffect(() => {
+    if (!isOpen) return;
+
     if (task) {
       setFormData({
         title: task.title,
@@ -55,7 +57,7 @@ export const TaskModal = ({
       });
     }
     setErrors({ title: "", dueDate: "" });
-  }, [task, isOpen, users, projects]);
+  }, [task, isOpen]);
 
   const validate = () => {
     const newErrors = { title: "", dueDate: "" };

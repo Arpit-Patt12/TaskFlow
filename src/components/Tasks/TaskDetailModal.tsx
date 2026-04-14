@@ -63,7 +63,7 @@ export const TaskDetailModal = ({
         <div>
           <div className="flex items-start justify-between mb-6">
             <div className="flex-1">
-              <h2 className="text-3xl font-bold bg-gradient-to-r from-cyan-700 to-rose-600 bg-clip-text text-transparent mb-2">
+              <h2 className="text-3xl font-bold bg-gradient-to-r from-cyan-600 to-rose-500 dark:from-cyan-400 dark:to-rose-400 bg-clip-text text-transparent mb-2">
                 {task.title}
               </h2>
               <p className="text-cyan-700/70 dark:text-cyan-300/70 font-medium">

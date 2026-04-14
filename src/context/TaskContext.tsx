@@ -252,9 +252,8 @@ export const TaskProvider = ({ children }: { children: ReactNode }) => {
     };
 
     fetchTeamMembers();
-    // Refresh team members every 5 seconds
-    const interval = setInterval(fetchTeamMembers, 5000);
-    return () => clearInterval(interval);
+    // Only fetch once on mount, don't continuously poll
+    // Re-fetching happens naturally when currentUser changes or via real-time listeners
   }, [currentUser]);
 
   const addTask = async (

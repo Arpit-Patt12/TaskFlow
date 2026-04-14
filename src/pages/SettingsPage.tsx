@@ -17,7 +17,7 @@ export const SettingsPage = () => {
   return (
     <div className="max-w-4xl space-y-6">
       <div>
-        <h1 className="text-3xl font-bold bg-gradient-to-r from-cyan-700 to-rose-600 bg-clip-text text-transparent">
+        <h1 className="text-3xl font-bold bg-gradient-to-r from-cyan-600 to-rose-500 dark:from-cyan-400 dark:to-rose-400 bg-clip-text text-transparent">
           Settings
         </h1>
         <p className="text-cyan-700/70 dark:text-cyan-300/70 mt-1 font-medium">
@@ -39,7 +39,7 @@ export const SettingsPage = () => {
               {currentUser ? getInitials(currentUser.name) : "U"}
             </div>
             <div>
-              <h3 className="text-lg font-semibold text-cyan-100 dark:text-cyan-100">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-cyan-100">
                 {currentUser?.name}
               </h3>
               <p className="text-cyan-700/70 dark:text-cyan-300/70 font-medium">

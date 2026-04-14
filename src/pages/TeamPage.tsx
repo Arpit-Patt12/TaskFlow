@@ -125,7 +125,7 @@ export const TeamPage = () => {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-3xl font-bold bg-gradient-to-r from-cyan-700 to-rose-600 bg-clip-text text-transparent">
+        <h1 className="text-3xl font-bold bg-gradient-to-r from-cyan-600 to-rose-500 dark:from-cyan-400 dark:to-rose-400 bg-clip-text text-transparent">
           Team
         </h1>
         <p className="text-cyan-700/70 dark:text-cyan-300/70 mt-1 font-medium">
@@ -160,7 +160,7 @@ export const TeamPage = () => {
                 {getInitials(user.name)}
               </div>
               <div className="flex-1">
-                <h3 className="text-lg font-semibold text-cyan-100 dark:text-cyan-100">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-cyan-100">
                   {user.name}
                 </h3>
                 <span

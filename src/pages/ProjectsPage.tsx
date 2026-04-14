@@ -54,7 +54,7 @@ export const ProjectsPage = () => {
     <div className="space-y-6">
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-4xl font-bold bg-gradient-to-r from-cyan-700 to-rose-600 bg-clip-text text-transparent">
+          <h1 className="text-4xl font-bold bg-gradient-to-r from-cyan-600 to-rose-500 dark:from-cyan-400 dark:to-rose-400 bg-clip-text text-transparent">
             Projects
           </h1>
           <p className="text-cyan-700/70 dark:text-cyan-300/70 mt-2 font-medium">

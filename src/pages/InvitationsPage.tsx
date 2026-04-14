@@ -49,7 +49,7 @@ export const InvitationsPage = () => {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-3xl font-bold bg-gradient-to-r from-cyan-700 to-rose-600 bg-clip-text text-transparent">
+        <h1 className="text-3xl font-bold bg-gradient-to-r from-cyan-600 to-rose-500 dark:from-cyan-400 dark:to-rose-400 bg-clip-text text-transparent">
           Invitations
         </h1>
         <p className="text-cyan-700/70 dark:text-cyan-300/70 mt-1 font-medium">
@@ -86,7 +86,7 @@ export const InvitationsPage = () => {
               >
                 <div className="flex items-center justify-between">
                   <div className="flex-1">
-                    <p className="text-lg font-semibold text-cyan-100">
+                    <p className="text-lg font-semibold text-gray-900 dark:text-cyan-100">
                       {invite.message}
                     </p>
                     <p className="text-sm text-cyan-700/70 dark:text-cyan-300/70 mt-1">
@@ -141,7 +141,7 @@ export const InvitationsPage = () => {
               >
                 <div className="flex items-center justify-between">
                   <div className="flex-1">
-                    <p className="text-lg font-semibold text-cyan-100">
+                    <p className="text-lg font-semibold text-gray-900 dark:text-cyan-100">
                       @{invite.toUsername}
                     </p>
                     <div className="flex items-center gap-3 mt-1">
